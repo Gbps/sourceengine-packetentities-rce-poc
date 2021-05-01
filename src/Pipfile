@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+black = "*"
+
+[packages]
+frida = "*"
+msvc-vtables = {git = "ssh://git@github.com/Gbps/msvc_vtables.git"}
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
