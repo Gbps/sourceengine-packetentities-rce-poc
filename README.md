@@ -2,7 +2,7 @@
 
 Patched April 30th, 2021.
 
-For code related to Frida: ./src/agent/
+For code related to Frida and the bug chain: ./src/agent/
 
 For code related to the map leak script: ./map_leak/
 
